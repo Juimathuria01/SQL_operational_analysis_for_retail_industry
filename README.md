@@ -90,8 +90,7 @@ Fixing the fulfillment process at Central Hub eliminates the root cause of all t
 
 1. Run `Schema.sql` to create all tables
 2. Run `Seed.sql` to load all data
-3. Run `Testing.sql` to verify row counts
-4. Run any module file (`data_profiling.sql`, `bottleneck_fulfillment.sql`, etc.) in order or independently
+3. Run the data analysis files (`data_profiling.sql`, `bottleneck_fulfillment.sql`, etc.)
 
 **Compatible with:** PostgreSQL 15+ (standard ANSI SQL — no extensions required)
 
