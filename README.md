@@ -34,11 +34,11 @@ The database consists of 6 tables:
 | `Schema.sql` | Full database schema — tables, constraints, and indexes |
 | `Seed.sql` | All seed data — warehouses, customers, products, orders, shipments, tickets |
 | `Testing.sql` | Quick row count check across all tables |
-| `data_profiling.sql` | Module 1 — Dataset shape, order status breakdown, data quality checks |
-| `bottleneck_fulfillment.sql` | Module 2 — Late delivery rates by warehouse, category, and delay bucket |
-| `customer_churn.sql` | Module 3 — RFM segmentation model (Recency, Frequency, Monetary) |
-| `support_overload.sql` | Module 4 — Ticket volume, resolution times, ageing report |
-| `executive_summary.sql` | Module 5 — One-page KPI summary + prioritised issue ranking + consulting memo |
+| `data_profiling.sql` | Dataset shape, order status breakdown, data quality checks |
+| `bottleneck_fulfillment.sql` |Late delivery rates by warehouse, category, and delay bucket |
+| `customer_churn.sql` | RFM segmentation model (Recency, Frequency, Monetary) |
+| `support_overload.sql` | Ticket volume, resolution times, ageing report |
+| `executive_summary.sql` | One-page KPI summary + prioritised issue ranking + consulting memo |
 
 ---
 
